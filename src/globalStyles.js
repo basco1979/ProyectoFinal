@@ -78,6 +78,13 @@ const Styles = createGlobalStyle`
     .ant-notification-notice-icon-success {
         color: rgb(255,130,92);
     }
+    .w-100{
+        width:100%;
+        background:red;
+    }
+    .img-fluid{
+        object-fit:contain;
+    }
 `;
 
 export default Styles;
