@@ -7,8 +7,23 @@ const Styles = createGlobalStyle`
     a {
         font-family: 'Ubuntu', sans-serif;
     }
-
-
+    .justify-content-around{
+        justify-content: space-around;
+    }
+    .img-principio{
+        width:55rem;
+    }
+    .img-principio-container{
+        display: flex;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        left: -23px;
+    }
+    .z-index-element{
+        z-index:1;
+    }
     body {
         margin:0;
         padding:0;

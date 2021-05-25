@@ -27,34 +27,7 @@ const Footer = ({ t }) => {
   return (
     <Fragment>
       <Fade bottom>
-        <S.Footer>
-          <Container>
-            <Row type="flex" justify="space-between">
-              <Col lg={10} md={10} sm={12} xs={24}>
-              <S.Language>{t("Contact")}</S.Language>
-                <S.Para>
-                  {t(
-                    `Do you have any question regarding the project? Feel free to reach out.`
-                  )}
-                </S.Para>
-                <a href="mailto:info@minube.com.ar">
-                  <S.Chat>{t(`Let's Chat`)}</S.Chat>
-                </a></Col>
-              <Col lg={6} md={6} sm={12} xs={24}>
-                <S.Language>{t("Company")}</S.Language>
-                <S.Large to="/">
-                  {t("About")}
-                </S.Large>
-                <S.Large to="/">
-                  {t("Blog")}
-                </S.Large>
-                <S.Large to="/">
-                  {t("Press")}
-                </S.Large>
-              </Col>
-            </Row>
-          </Container>
-        </S.Footer>
+       
         <S.Extra>
           <Container border="true">
             <Row
@@ -73,21 +46,13 @@ const Footer = ({ t }) => {
                   />
                 </S.LogoContainer>
               </S.NavLink>
-              <S.FooterContainer>
+              <S.FooterContainer className="justify-content-around">
                 <SocialLink
-                  href="https://github.com/minube"
-                  src="github.svg"
+                  href="https://www.facebook.com/Minubeargentina"
+                  src="facebook.png"
                 />
                 <SocialLink
-                  href="https://twitter.com/minube"
-                  src="twitter.svg"
-                />
-                <SocialLink
-                  href="https://www.linkedin.com/in/minube/"
-                  src="linkedin.svg"
-                />
-                <SocialLink
-                  href="https://github.com/MiNube/"
+                  href="https://www.instagram.com/minubeargentina/"
                   src="instagram.svg"
                 />
               </S.FooterContainer>

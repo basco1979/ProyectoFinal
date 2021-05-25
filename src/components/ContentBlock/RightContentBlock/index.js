@@ -17,7 +17,7 @@ const RightBlock = ({ title, content, button, icon, t, id }) => {
   return (
     <S.RightBlockContainer>
       <Row type="flex" justify="space-between" align="middle" id={id}>
-        <Col lg={11} md={11} sm={11} xs={24}>
+        <Col lg={11} md={11} sm={11} xs={24} className={id=="intro"?"z-index-element": ""}>
           <Slide left>
             <S.ContentWrapper>
               <h6>{t(title)}</h6>
@@ -41,11 +41,11 @@ const RightBlock = ({ title, content, button, icon, t, id }) => {
             </S.ContentWrapper>
           </Slide>
         </Col>
-        <Col lg={11} md={11} sm={12} xs={24}>
+        <Col lg={11} md={11} sm={12} xs={24} className={id=="intro"?"img-principio-container": ""}>
           <Slide right>
             <SvgIcon
               src={icon}
-              className="about-block-image"
+              className={id=="intro"?"about-block-image img-principio": "about-block-image"}
               width="100%"
               height="100%"              
             />
