@@ -60,7 +60,7 @@ const Header = ({ t }) => {
           <SvgIcon
                     src="logo.png"
                     aria-label="homepage"
-                    width="350px"
+                    width="250px"
                     height="200px"
                     className="img-fluid"
                   />

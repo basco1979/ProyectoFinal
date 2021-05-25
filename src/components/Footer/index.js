@@ -34,7 +34,7 @@ const Footer = ({ t }) => {
               type="flex"
               justify="space-between"
               align="middle"
-              style={{ paddingTop: "3rem" }}
+              style={{ paddingTop: "1rem" }}
             >
               <S.NavLink to="/">
                 <S.LogoContainer>

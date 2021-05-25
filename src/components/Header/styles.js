@@ -65,7 +65,7 @@ export const NotHidden = styled.div`
 export const Menu = styled.h5`
   font-size: 1.37rem;
   margin-top: -0.45rem;
-  padding: 0 1.56rem 0 0;
+  padding: 0 1rem 0 0;
   font-weight: 600;
   border-bottom: 5px solid #111b47;
 `;
