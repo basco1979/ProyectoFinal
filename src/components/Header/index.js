@@ -31,11 +31,7 @@ const Header = ({ t }) => {
     };
     return (
       <Fragment>
-<<<<<<< HEAD
         <S.CustomNavLinkSmall onClick={() => scrollTo("video")}>
-=======
-        <S.CustomNavLinkSmall onClick={() => scrollTo("about")}>
->>>>>>> e783033b4c994c0bca09b79ff09b30fc81263de7
           <S.Span>{t("About")}</S.Span>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall onClick={() => scrollTo("mission")}>
