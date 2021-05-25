@@ -34,7 +34,7 @@ const Contact = ({ title, content, id, t }) => {
           <Col lg={12} md={11} sm={24}>
             <Block padding={true} title={title} content={content} />
           </Col>
-          <Col lg={12} md={12} sm={24}>
+          <Col lg={12} md={12} sm={24} className="w-100">
             <S.FormGroup autoComplete="off" onSubmit={handleSubmit}>
               <Col span={24}>
                 <Input

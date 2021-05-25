@@ -17,7 +17,7 @@ const RightBlock = ({ title, content, button, icon, t, id }) => {
   return (
     <S.RightBlockContainer>
       <Row type="flex" justify="space-between" align="middle" id={id}>
-        <Col lg={11} md={11} sm={11} xs={24} className={id=="intro"?"z-index-element": ""}>
+        <Col lg={11} md={11} sm={11} xs={24} className={id=="intro"?"z-index-element": "column-reverse"}>
           <Slide left>
             <S.ContentWrapper>
               <h6>{t(title)}</h6>
@@ -31,7 +31,7 @@ const RightBlock = ({ title, content, button, icon, t, id }) => {
                         key={id}
                         color={item.color}
                         width="true"
-                        onClick={() => scrollTo("about")}
+                        onClick={() => scrollTo("video")}
                       >
                         {t(item.title)}
                       </Button>

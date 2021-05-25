@@ -52,7 +52,7 @@ const Styles = createGlobalStyle`
           font-size: 1.625rem;
         }
     }
-
+   
     p {
         color: #343D48;
         font-size: 1.125rem;
@@ -93,13 +93,35 @@ const Styles = createGlobalStyle`
     .ant-notification-notice-icon-success {
         color: rgb(255,130,92);
     }
-    .w-100{
-        width:100%;
-        background:red;
-    }
     .img-fluid{
         object-fit:contain;
     }
+    .video-container{
+        justify-content: center;
+    }
+    .mt-2{
+        margin-top:4rem;
+    }
+    .w-100{
+        width:100%;
+    }
+    .video-container-player{
+        width:700px !important;
+    }
+    .column-reverse{
+        flex-direction: row !important;
+    }
+    @media only screen and (max-width: 720px) {
+        .video-container-player{
+            width:100% !important;
+        }
+        .column-reverse{
+            flex-direction: column-reverse !important;
+        }
+        .img-principio{
+            width:100%;
+        }
+      }
 `;
 
 export default Styles;
