@@ -55,6 +55,7 @@ export const Extra = styled.section`
 export const LogoContainer = styled.div`
   display: flex;
   position: relative;
+ 
 `;
 
 export const Select = styled.div`

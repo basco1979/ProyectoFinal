@@ -11,7 +11,7 @@ const Styles = createGlobalStyle`
         justify-content: space-around;
     }
     .img-principio{
-        width:55rem;
+        width:43rem;
     }
     .img-principio-container{
         display: flex;
@@ -111,6 +111,10 @@ const Styles = createGlobalStyle`
     .column-reverse{
         flex-direction: row !important;
     }
+    .img-footer{
+        object-fit: cover !important;
+    }
+    .mt-3{margin-top: -2rem !important;}
     @media only screen and (max-width: 720px) {
         .video-container-player{
             width:100% !important;
@@ -121,6 +125,7 @@ const Styles = createGlobalStyle`
         .img-principio{
             width:100%;
         }
+        .mt-3{margin-top: 0px !important;}
       }
 `;
 

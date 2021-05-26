@@ -3,11 +3,13 @@
   "text": "Mi Nube es una plataforma que acompaña a estudiantes, padres, docentes e instituciones educativas en la trayectoria escolar, brindando herramientas accesibles para todos y de rápida implementación.",
   "button": [
     {
-      "title": "Explore"
+      "title": "Explore",
+      "section":"video"
     },
     {
       "title": "Learn More",
-      "color": "#fff"
+      "color": "#fff",
+      "section":"contact"
     }
   ]
 }

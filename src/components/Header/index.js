@@ -58,9 +58,9 @@ const Header = ({ t }) => {
         <Row type="flex" justify="space-between" style={{alignItems:'center'}} gutter={20}>
           <S.LogoContainer to="/" aria-label="homepage" >
           <SvgIcon
-                    src="logo.png"
+                    src="logo1.png"
                     aria-label="homepage"
-                    width="250px"
+                    width="300px"
                     height="200px"
                     className="img-fluid"
                   />
