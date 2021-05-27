@@ -45,7 +45,7 @@ const Styles = createGlobalStyle`
     h6 {
         font-family: 'Ubuntu', sans-serif;
         color: #0a1f44;
-        font-size: 2.575rem;
+        font-size: 2.1rem;
         line-height: 3.0625rem;
       
         @media only screen and (max-width: 414px) {

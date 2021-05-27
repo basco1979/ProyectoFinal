@@ -4,7 +4,7 @@ import { Col } from 'antd';
 
 export const LeftContentBlock = styled.section`
   position: relative;
-  padding: 8rem 0 5rem;
+  padding: 0rem 0 0.1rem;
 
   @media only screen and (max-width: 768px) {
     padding: 2rem 0 2rem;
