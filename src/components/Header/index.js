@@ -34,10 +34,10 @@ const Header = ({ t }) => {
         <S.CustomNavLinkSmall onClick={() => scrollTo("video")}>
           <S.Span>{t("About")}</S.Span>
         </S.CustomNavLinkSmall>
-        <S.CustomNavLinkSmall onClick={() => scrollTo("mission")}>
+        <S.CustomNavLinkSmall onClick={() => scrollTo("mision")}>
           <S.Span>{t("Mission")}</S.Span>
         </S.CustomNavLinkSmall>
-        <S.CustomNavLinkSmall onClick={() => scrollTo("product")}>
+        <S.CustomNavLinkSmall onClick={() => scrollTo("plataforma")}>
           <S.Span>{t("Product")}</S.Span>
         </S.CustomNavLinkSmall>
         <S.CustomNavLinkSmall
@@ -55,15 +55,15 @@ const Header = ({ t }) => {
   return (
     <S.Header>
       <S.Container>
-        <Row type="flex" justify="space-between" style={{alignItems:'center'}} gutter={20}>
-          <S.LogoContainer to="/" aria-label="homepage" >
-          <SvgIcon
-                    src="logo.png"
-                    aria-label="homepage"
-                    width="250px"
-                    height="200px"
-                    className="img-fluid"
-                  />
+        <Row type="flex" justify="space-between" style={{ alignItems: 'center' }} gutter={20}>
+          <S.LogoContainer to="/" aria-label="homepage" className="logo-height">
+            <SvgIcon
+              src="logo1.png"
+              aria-label="homepage"
+              width="300px"
+              height="200px"
+              className="img-fluid"
+            />
           </S.LogoContainer>
           <S.NotHidden>
             <MenuItem />

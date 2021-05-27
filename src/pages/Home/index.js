@@ -49,11 +49,11 @@ const Home = () => {
       />
 
       <ContentBlock
-        type="left"
+        type="left2"
         title={ProductContent.title}
         content={ProductContent.text}
         icon="plataforma.png"
-        id="product"
+        id="plataforma"
       />
       <ContactFrom
         title={ContactContent.title}

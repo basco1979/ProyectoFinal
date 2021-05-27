@@ -8,10 +8,11 @@ import * as S from "./styles";
 
 const LeftContentBlock = ({ icon, title, content, section, t, id }) => {
   return (
+    <div id="mision">
     <S.LeftContentBlock>
-      <Row type="flex" justify="space-between" align="middle" id={id}>
+      <Row type="flex" justify="space-between" align="middle" id={id} className="column-reverse">
         <Col lg={11} md={11} sm={12} xs={24}>
-          <Slide left>
+          <Slide left> 
             <SvgIcon
               src={icon}
               className="about-block-image"
@@ -45,6 +46,7 @@ const LeftContentBlock = ({ icon, title, content, section, t, id }) => {
         </Col>
       </Row>
     </S.LeftContentBlock>
+    </div>
   );
 };
 

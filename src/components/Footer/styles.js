@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 export const Footer = styled.footer`
   background: rgb(249, 250, 252);
-  padding: 2.5rem 0;
+  padding: 5rem 0;
 `;
 
 export const Title = styled.h4`
@@ -55,6 +55,7 @@ export const Extra = styled.section`
 export const LogoContainer = styled.div`
   display: flex;
   position: relative;
+ 
 `;
 
 export const Select = styled.div`
