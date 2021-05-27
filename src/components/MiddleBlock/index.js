@@ -20,7 +20,6 @@ const MiddleBlock = ({ title, content, button, t }) => {
     <S.MiddleBlock id="video">
       <Row type="flex" justify="space-between" align="middle" className="video-container w-100">
         <Fade bottom>
-
           <Col lg={24} md={11} sm={12} xs={24}>
             <S.ContentWrapper>
               <h6>{t(title)}</h6>

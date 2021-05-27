@@ -95,6 +95,10 @@ const Styles = createGlobalStyle`
     }
     .img-fluid{
         object-fit:contain;
+        margin-left:-3rem;
+    }
+    .logo-height{
+        height:170px;
     }
     .video-container{
         justify-content: center;
@@ -113,6 +117,8 @@ const Styles = createGlobalStyle`
     }
     .img-footer{
         object-fit: cover !important;
+    }
+    .fuente{
     }
     .mt-3{margin-top: -2rem !important;}
     @media only screen and (max-width: 720px) {
